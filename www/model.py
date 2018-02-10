@@ -1,9 +1,7 @@
-import asyncio
 import uuid
 from time import time
 
-import orm
-from orm import Model, IntegerField, StringField, BooleanField, FloatField, TextField
+from www.orm import Model, StringField, BooleanField, FloatField, TextField
 
 
 def nextId():
